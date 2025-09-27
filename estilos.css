@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: "Montserrat", sans-serif;
+}
+.contenedor{
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+.card{
+  width: 320px;
+  background-color: #f2f2f2;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 8px;
+  border: solid 0.5px #cbc3c3;
+  display: inline-block;
+}
+.card img{
+  display: block;
+  max-height: 280px;
+  margin: 16px auto;
+  filter: drop-shadow(2px 0px 8px #515151);
+}
+.card h2{
+  margin-top: 2px;
+  margin-bottom: 8px;
+  color: #373737;
+  text-align: center;
+}
+.card p{
+  font-size: 16px;
+  color: #515151;
+  text-align: center;
+}
+.p1{
+  background-color: #515151;
+}
+.p2{
+  background-color: rgb(204, 96, 48) 
+}
+.p22{
+  background-color: rgb(148,251,94)
+}
+.p222{
+  background-color: rgb(255, 0, 110)
+}
+.p2222{
+  background-color: rgb(100, 255, 221)
+}
+.p22222{
+  background-color: rgb(95, 41, 190)
+}
+.p3{
+  background-color: rgba(125, 159, 207, 0.658)
+}
+.p4{
+  background-image:url(kameha.jpg)
+}
+.p5{
+  background-image:url(kameha.jpg);
+  background-position: center;
+}
+.p6{
+  background-image:url(kameha.jpg);
+  background-position: center;
+  background-size: cover; 
+}
+.p7{
+  background-image:url(kameha.jpg);
+  background-position: center;
+  background-size: cover; 
+  background-attachment: fixed;
+}
+.p8{
+  background-image:url(kameha.jpg);
+  background-position: center;
+  background-size: cover; 
+  background-attachment: fixed;
+  background: linear-gradient(blue , orange);
+}
+.p9{
+  background-image:url(kameha.jpg);
+  background-position: center;
+  background-size: cover; 
+  background-attachment: fixed;
+  background: radial-gradient(red, green );
+}
+.p10{
+  background-image:url(kameha.jpg);
+  background-position: center;
+  background-size: cover; 
+  background-attachment: fixed;
+  background: conic-gradient(white, pink);
+  text-transform: uppercase;
+  letter-spacing: 15px ;
+  text-shadow: #515151;
+
+}
+.p11{
+  background-image:url(kameha.jpg);
+  background-position: center;
+  background-size: cover; 
+  background-attachment: fixed;
+  background: conic-gradient(white, pink);
+  text-transform: uppercase;
+  font-family: 'Poppins', sans-serif;
+}
+.p12{
+  background-image:url(kameha.jpg);
+  background-position: center;
+  background-size: cover; 
+  background-attachment: fixed;
+  background: conic-gradient(white, pink);
+  text-transform: uppercase;
+  font-family: 'Poppins', sans-serif;
+  font-size: large;
+  font-style: italic;
+  font-weight: 900;
+}
+.p13 p{
+  background-image:url(kameha.jpg);
+  background-position: center;
+  background-size: cover; 
+  background-attachment: fixed;
+  background: conic-gradient(white, pink);
+  text-transform: uppercase;
+  font-family: 'Poppins', sans-serif;
+  font-size: large;
+  font-style: italic;
+  font-weight: 900;
+  font-size: 2.5rem;
+}
+.p14{
+  background-image:url(kameha.jpg);
+  background-position: center;
+  background-size: cover; 
+  background-attachment: fixed;
+  background: conic-gradient(white, pink);
+  text-transform: uppercase;
+  font-family: 'Poppins', sans-serif;
+  font-size: large;
+  font-style: italic;
+  font-weight: 900;
+  margin: 3.9em;
+  padding: 5.8em;
+}
+.contenedor-1{
+font-size: 5px;
+}
+.contenedor-1 p{
+  font-size: 4em;
+}
+.contenedor-1 h2{
+  font-size: 2.5rem;
+}
+
+.p16 p{
+  background-image:url(kameha.jpg);
+  background-position: center;
+  background-size: cover; 
+  background-attachment: fixed;
+  background: conic-gradient(white, pink);
+  text-transform: uppercase;
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  font-style: italic;
+  font-weight: 900;
+  margin: 1.9em;
+  padding: 1.8em;
+  height: 30vh;
+  width: 25vw;
+}
+.p17{
+  background-image:url(kameha.jpg);
+  background-position: center;
+  background-size: cover; 
+  background-attachment: fixed;
+  background: conic-gradient(white, pink);
+  text-transform: uppercase;
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  font-style: italic;
+  font-weight: 900;
+  margin: 1.9em;
+  padding: 1.8em;
+  height: 30vh;
+  width: 25vw;
+  max-width:150px;
+  height: auto;
+}
+.p18 {
+  background-image:url(kameha.jpg);
+  background-position: center;
+  background-size: cover; 
+  background-attachment: fixed;
+  background: conic-gradient(white, pink);
+  text-transform: uppercase;
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  font-style: italic;
+  font-weight: 900;
+  margin: 1.9em;
+  padding: 1.8em;
+  height: 30vh;
+  width: 25vw;
+  max-width:150px;
+  height: auto;
+  object-fit: cover;
+}
